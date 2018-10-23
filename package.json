@@ -23,7 +23,9 @@
     "test:simple": "babel-node src build --cwd examples/simple && babel-node src serve --port 3000 --cwd examples/simple",
     "test:empty": "babel-node src build --cwd examples/empty && babel-node src serve --port 3000 --cwd examples/empty",
     "test:watch": "babel-node src watch --cwd examples/root --port 3000",
-    "test:deploy": "npm run test:build && cp examples/root/build/index.html examples/root/build/200.html && surge -d cli-demo.preactjs.com examples/root/build"
+    "test:deploy": "npm run test:build && cp examples/root/build/index.html examples/root/build/200.html && surge -d cli-demo.preactjs.com examples/root/build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=6"
@@ -151,17 +153,19 @@
     "source-map": "^0.5.6",
     "stack-trace": "0.0.10",
     "style-loader": "^0.18.2",
-    "sw-precache-webpack-plugin": "^0.11.2",
+    "sw-precache-webpack-plugin": "^0.11.4",
     "tmp": "0.0.31",
     "unfetch": "^3.0.0",
     "update-notifier": "^2.3.0",
     "url-loader": "^0.5.8",
     "validate-npm-package-name": "^3.0.0",
     "webpack": "^3.7.0",
-    "webpack-dev-server": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0",
     "webpack-plugin-replace": "^1.1.1",
     "which": "^1.2.14",
-    "yargs": "^8.0.1"
-  }
+    "yargs": "^8.0.1",
+    "snyk": "^1.104.2"
+  },
+  "snyk": true
 }
