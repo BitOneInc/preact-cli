@@ -129,7 +129,7 @@
     "html-webpack-plugin": "^2.28.0",
     "inquirer": "^3.3.0",
     "ip": "^1.1.5",
-    "isomorphic-unfetch": "^2.0.0",
+    "isomorphic-unfetch": "^2.1.0",
     "json-loader": "^0.5.4",
     "loader-utils": "^1.1.0",
     "log-symbols": "^2.1.0",
