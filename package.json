@@ -133,7 +133,7 @@
     "json-loader": "^0.5.4",
     "loader-utils": "^1.1.0",
     "log-symbols": "^2.1.0",
-    "minimatch": "^3.0.3",
+    "minimatch": "^3.0.5",
     "ora": "^1.2.0",
     "persist-path": "^1.0.1",
     "postcss-loader": "^2.0.6",
