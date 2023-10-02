@@ -96,7 +96,7 @@
     "uuid": "^3.0.1"
   },
   "dependencies": {
-    "autoprefixer": "^7.1.0",
+    "autoprefixer": "^10.0.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-jsx-pragmatic": "^1.0.2",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
@@ -115,7 +115,7 @@
     "console-clear": "^1.0.0",
     "copy-webpack-plugin": "^4.1.0",
     "cross-spawn-promise": "^0.10.1",
-    "css-loader": "^0.28.7",
+    "css-loader": "^5.0.0",
     "css-modules-require-hook": "^4.0.6",
     "devcert-san": "^0.3.3",
     "ejs-loader": "^0.3.0",
@@ -136,7 +136,7 @@
     "minimatch": "^3.0.3",
     "ora": "^1.2.0",
     "persist-path": "^1.0.1",
-    "postcss-loader": "^2.0.6",
+    "postcss-loader": "^4.0.0",
     "preact": "^8.1.0",
     "preact-compat": "^3.14.3",
     "preact-render-to-string": "^3.6.0",
