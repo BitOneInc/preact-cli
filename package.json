@@ -162,6 +162,6 @@
     "webpack-merge": "^4.1.0",
     "webpack-plugin-replace": "^1.1.1",
     "which": "^1.2.14",
-    "yargs": "^8.0.1"
+    "yargs": "^18.0.0"
   }
 }
